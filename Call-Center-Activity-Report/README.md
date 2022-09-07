@@ -43,7 +43,11 @@ Below are the query I use to create the table that will be used for the input of
 
 1. Bar chart for the customer sentiment.
 ```
-=QUERY('Call Center'!A1:L32942, "SELECT C, COUNT(A) GROUP BY C ORDER BY  COUNT(A) DESC LABEL COUNT(A) 'number of calls'", 1)
+=QUERY(
+  'Call Center'!A1:L32942, 
+  "SELECT C, COUNT(A) GROUP BY C ORDER BY  COUNT(A) DESC LABEL COUNT(A) 'number of calls'", 
+  1
+)
 ```
 
 2. Geo chart for showing the number of calls on each US state.
@@ -53,7 +57,11 @@ Below are the query I use to create the table that will be used for the input of
 
 3. Combo chart (column chart + line chart) for number of calls each day and showing the average number of call. Since the DAYOFWEEK() function return the day code instead of the day name, I created a new column for the day name, and another column to calculate the average number of calls.
 ```
-=QUERY('Call Center'!A1:L32942, "SELECT DAYOFWEEK(E), COUNT(A) GROUP BY DAYOFWEEK(E) LABEL DAYOFWEEK(E) 'weekday code', COUNT(A) 'number of calls'")
+=QUERY(
+  'Call Center'!A1:L32942, 
+  "SELECT DAYOFWEEK(E), COUNT(A) GROUP BY DAYOFWEEK(E) LABEL DAYOFWEEK(E) 'weekday code', COUNT(A) 'number of calls'",
+  1
+)
 ```
 
 4. Bar chart for the reason of calling.
