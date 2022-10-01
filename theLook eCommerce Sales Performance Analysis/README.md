@@ -525,7 +525,7 @@ Below are the preview of the cohort analysis table on the Google Data Studio.
 
 ![Cohort analysis](img/cohort-analysis.png)
 
-Retention Rate is overall getting better and better!
+Retention Rate is overall getting better and better! Click [here](https://datastudio.google.com/reporting/247011c5-79c1-4ba3-9dbb-96279f939f59/page/p_u6to39u2yc) for the detailed report on the Google Data Studio.
 
 ## Some Actionable Insights
 
