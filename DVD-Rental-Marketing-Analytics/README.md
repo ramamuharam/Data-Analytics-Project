@@ -10,7 +10,7 @@ The customer email campaign looks like the picture below
 
 ## Problem Statement
 
-From the campaign that have been shared by the customer analytics team, the problem can be breakdown into 4 part:
+From the campaign that have been shared by the customer analytics team, the problem can be breakdown into 3 parts:
 
 1. Top 2 Categories
     * Identify top 2 categories for each customer based off their past rental history.
